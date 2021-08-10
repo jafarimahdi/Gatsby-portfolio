@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'irancukrazda.png',
-    title: '',
+    title: 'iran Cukrazda',
     info: '',
     info2: '',
     url: 'https://irancukrazda.netlify.app/',
@@ -37,8 +37,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'kalunba.png',
+    title: 'Kalunba Non Profit',
     info: '',
     info2: '',
     url: 'https://kalunba.netlify.app/',

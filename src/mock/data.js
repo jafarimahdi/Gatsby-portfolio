@@ -21,7 +21,8 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'jafari-Mahdi.pdf', // if no resume, the button will not show up
+  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,9 +30,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'irancukrazda.png',
-    title: 'iran Cukrazda',
-    info: '',
-    info2: '',
+    title: 'Iran Cukrazda',
+    info: 'this website created for the a persian pastry, located in Budapest, and it was part of the business plan',
+    info2: 'Dependencies been used in this project: google-maps-react, node-sass (scss), react-dom, react-geocode, react-google-autocomplete, react-google-maps, react-player, react-router-dom ',
     url: 'https://irancukrazda.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/irancukrazda', // if no repo, the button will not show up
   },
@@ -39,8 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'kalunba.png',
     title: 'Kalunba Non Profit',
-    info: '',
-    info2: '',
+    info: 'This website as made it for an NGO, they located in Budapest and working with refugees and migrants.',
+    info2: 'Dependencies been used in this project: react-dom, lodash-es, hookForm/resolver, aos( scroll animation), Bootstrap, Emailjs-com, react-hook-form, yup(Form validation)',
     url: 'https://kalunba.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/kalunba', // if no repo, the button will not show up
   },

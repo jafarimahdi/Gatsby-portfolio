@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a Self-starter with 2 years frontend programming experience in HTML, CSS,Javascript, ES6, and Typescript.',
+  paragraphOne: 'I am a Self-starter with 2 years frontend programming experience in HTML, CSS, ES6, Typescript and Git, mySql.',
   paragraphTwo: 'I had more Focus on web design, creating efficient and user-friendly interfaces for websites and web applications; also some experience on design areas include photography and architectural design.',
-  paragraphThree: 'Also I have some Knowledge of VueJs, ReactJs, Git, MySQL, Bootstrap, SCSS, and WordPress.',
+  paragraphThree: 'Also I touched some latest tools and gained some Knowledge of VueJs, ReactJs, Bootstrap, SCSS, and WordPress.',
   resume: 'jafari-Mahdi.pdf', // if no resume, the button will not show up
 };
 
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'irancukrazda.png',
     title: 'Iran Cukrazda',
-    info: 'this website created for the a persian pastry, located in Budapest, and it was part of the business plan',
+    info: 'This website created for the a persian pastry, located in Budapest, and it was part of the business plan',
     info2: 'Dependencies been used in this project: google-maps-react, node-sass (scss), react-dom, react-geocode, react-google-autocomplete, react-google-maps, react-player, react-router-dom ',
     url: 'https://irancukrazda.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/irancukrazda', // if no repo, the button will not show up

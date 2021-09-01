@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a Self-starter with 2 years frontend programming experience in HTML, CSS, ES6, Typescript and Git, mySql.',
+  paragraphOne: 'Self-starter with 2 years frontend programming experience in HTML, CSS, ES6, Typescript and Git, mySql.',
   paragraphTwo: 'I had more Focus on web design, creating efficient and user-friendly interfaces for websites and web applications; also some experience on design areas include photography and architectural design.',
   paragraphThree: 'Also I touched some latest tools and gained some Knowledge of VueJs, ReactJs, Bootstrap, SCSS, and WordPress.',
   resume: 'jafari-Mahdi.pdf', // if no resume, the button will not show up
@@ -58,17 +58,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      // name: 'codepen',
-      name: 'envelope',
-      url: 'mahdijafarii.mj@gmail.com',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/jafarimahdi/',
     },
@@ -78,9 +67,4 @@ export const footerData = {
       url: 'https://github.com/jafarimahdi',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

@@ -18,11 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a Self-starter with 2 years frontend programming experience in HTML, CSS,Javascript, ES6, and Typescript.',
+  paragraphTwo: 'I had more Focus on web design, creating efficient and user-friendly interfaces for websites and web applications; also some experience on design areas include photography and architectural design.',
+  paragraphThree: 'Also I have some Knowledge of VueJs, ReactJs, Git, MySQL, Bootstrap, SCSS, and WordPress.',
   resume: 'jafari-Mahdi.pdf', // if no resume, the button will not show up
-  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -45,22 +44,13 @@ export const projectsData = [
     url: 'https://kalunba.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/kalunba', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mahdijafarii.mj@gmail.com',
 };
 
 // FOOTER DATA
@@ -73,23 +63,24 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      // name: 'codepen',
+      name: 'envelope',
+      url: 'mahdijafarii.mj@gmail.com',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jafarimahdi/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jafarimahdi',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

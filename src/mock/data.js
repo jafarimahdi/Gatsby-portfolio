@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'irancukrazda.png',
     title: 'Iran Cukrazda',
-    info: 'This website created for the a persian pastry, located in Budapest, and it was part of the business plan',
-    info2: 'Dependencies been used in this project: google-maps-react, node-sass (scss), react-dom, react-geocode, react-google-autocomplete, react-google-maps, react-player, react-router-dom ',
+    info: 'This website created for the a persian pastry, located in Budapest.',
+    info2: 'Dependencies been used in this project: react-router-dom, node-sass (scss), react-geocode, react-google-autocomplete, react-google-maps, react-player ',
     url: 'https://irancukrazda.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/irancukrazda', // if no repo, the button will not show up
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'kalunba.png',
     title: 'Kalunba Non Profit',
     info: 'This website as made it for an NGO, they located in Budapest and working with refugees and migrants.',
-    info2: 'Dependencies been used in this project: react-dom, lodash-es, hookForm/resolver, aos( scroll animation), Bootstrap, Emailjs-com, react-hook-form, yup(Form validation)',
+    info2: 'Dependencies been used in this project: react-dom, react-hook-form, lodash-es, hookForm/resolver, aos( scroll animation), Emailjs-com, yup(Form validation), Bootstrap',
     url: 'https://kalunba.netlify.app/',
     repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/kalunba', // if no repo, the button will not show up
   },

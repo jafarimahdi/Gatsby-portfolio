@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Self-starter with 2 years frontend programming experience in HTML, CSS, ES6, Typescript and Git, mySql.',
   paragraphTwo: 'I had more Focus on web design, creating efficient and user-friendly interfaces for websites and web applications; also some experience on design areas include photography and architectural design.',
   paragraphThree: 'Also I touched some latest tools and gained some Knowledge of VueJs, ReactJs, Bootstrap, SCSS, and WordPress.',
-  resume: 'jafari-Mahdi.pdf', // if no resume, the button will not show up
+  resume: './jafari-Mahdi.pdf', 
 };
 
 // PROJECTS DATA

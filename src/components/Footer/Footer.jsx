@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © Summer {new Date().getFullYear()} - by{' '}
+          © Summer 2021 - by{' '}
           <a href="https://github.com/jafarimahdi" target="_blank" rel="noopener noreferrer">
             Jafari Mahdi
           </a>

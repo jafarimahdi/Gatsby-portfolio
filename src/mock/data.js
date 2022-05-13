@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'kalunba.png',
+    title: 'Kalunba Non Profit',
+    info: 'This website as made it for an NGO, they located in Budapest and working with refugees and migrants. Dependencies been used in this project:',
+    info2: ' react-dom, react-hook-form, lodash-es, hookForm/resolver, aos( scroll animation), Emailjs-com, yup(Form validation), Bootstrap',
+    url: 'https://kalunba.netlify.app/',
+    repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/kalunba', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'irancukrazda.png',
     title: 'Iran Cukrazda',
     info: `This website created for the a persian pastry, located in Budapest. Dependencies been used in this project:`,
@@ -37,12 +46,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'kalunba.png',
-    title: 'Kalunba Non Profit',
-    info: 'This website as made it for an NGO, they located in Budapest and working with refugees and migrants. Dependencies been used in this project:',
-    info2: ' react-dom, react-hook-form, lodash-es, hookForm/resolver, aos( scroll animation), Emailjs-com, yup(Form validation), Bootstrap',
-    url: 'https://kalunba.netlify.app/',
-    repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/kalunba', // if no repo, the button will not show up
+    img: 'adventure.png',
+    title: 'Adventure',
+    info: 'A simple React project for practicing the React Router and multi page apps.',
+    info2: ' react-dom, react-hook-form, lodash-es, hookForm/resolver, aos( scroll animation), Bootstrap',
+    url: 'https://mahdijafari.netlify.app/',
+    repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/web-site', // if no repo, the button will not show up
   },
 ];
 

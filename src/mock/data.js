@@ -48,10 +48,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'adventure.png',
     title: 'Adventure',
-    info: 'A simple React project for practicing the React Router and multi page apps.',
-    info2: ' react-dom, react-hook-form, lodash-es, hookForm/resolver, aos( scroll animation), Bootstrap',
-    url: 'https://mahdijafari.netlify.app/',
-    repo: 'https://github.com/jafarimahdi/ReactJs/tree/main/web-site', // if no repo, the button will not show up
+    info: 'A simple R-Shinyapps for Tracking the Crypto Price from CoinGecko API V3',
+    info2: 'Library: Shiny, ggplot2, data.table, jsonlite, rsconnect, plotly, shinythemes, shinydashboard, MASS',
+    url: 'https://jafari-mahdi.shinyapps.io/Crypto-tracker/',
+    repo: 'https://github.com/jafarimahdi/CEU-Traning/blob/main/R/final_Project/Crypto_tracker/app.R', // if no repo, the button will not show up
   },
 ];
 

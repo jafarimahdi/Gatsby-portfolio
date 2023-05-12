@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'adventure.png',
-    title: 'Adventure',
+    title: 'Crypto Tracker',
     info: 'A simple R-Shinyapps for Tracking the Crypto Price from CoinGecko API V3',
     info2: 'Library: Shiny, ggplot2, data.table, jsonlite, rsconnect, plotly, shinythemes, shinydashboard, MASS',
     url: 'https://jafari-mahdi.shinyapps.io/Crypto-tracker/',
